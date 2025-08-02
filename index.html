@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+     <!--arrow-->
+        <div class="arrow_container">
+
+        <div class="arrow"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="3" width="14" height="14" fill="currentColor" class="bi bi-chevron-right chev_right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg></div>
+
+    </div>
+
+    <div class="container">
+     
+            <div class="top_bar">
+                <div>
+            <svg aria-label="Instagram" class="x1lliihq x1n2onr6 x5n08af insta" fill="currentColor" height="29" role="img" viewBox="32 4 113 32" width="103"><title>Instagram</title><path clip-rule="evenodd" d="M37.82 4.11c-2.32.97-4.86 3.7-5.66 7.13-1.02 4.34 3.21 6.17 3.56 5.57.4-.7-.76-.94-1-3.2-.3-2.9 1.05-6.16 2.75-7.58.32-.27.3.1.3.78l-.06 14.46c0 3.1-.13 4.07-.36 5.04-.23.98-.6 1.64-.33 1.9.32.28 1.68-.4 2.46-1.5a8.13 8.13 0 0 0 1.33-4.58c.07-2.06.06-5.33.07-7.19 0-1.7.03-6.71-.03-9.72-.02-.74-2.07-1.51-3.03-1.1Zm82.13 14.48a9.42 9.42 0 0 1-.88 3.75c-.85 1.72-2.63 2.25-3.39-.22-.4-1.34-.43-3.59-.13-5.47.3-1.9 1.14-3.35 2.53-3.22 1.38.13 2.02 1.9 1.87 5.16ZM96.8 28.57c-.02 2.67-.44 5.01-1.34 5.7-1.29.96-3 .23-2.65-1.72.31-1.72 1.8-3.48 4-5.64l-.01 1.66Zm-.35-10a10.56 10.56 0 0 1-.88 3.77c-.85 1.72-2.64 2.25-3.39-.22-.5-1.69-.38-3.87-.13-5.25.33-1.78 1.12-3.44 2.53-3.44 1.38 0 2.06 1.5 1.87 5.14Zm-13.41-.02a9.54 9.54 0 0 1-.87 3.8c-.88 1.7-2.63 2.24-3.4-.23-.55-1.77-.36-4.2-.13-5.5.34-1.95 1.2-3.32 2.53-3.2 1.38.14 2.04 1.9 1.87 5.13Zm61.45 1.81c-.33 0-.49.35-.61.93-.44 2.02-.9 2.48-1.5 2.48-.66 0-1.26-1-1.42-3-.12-1.58-.1-4.48.06-7.37.03-.59-.14-1.17-1.73-1.75-.68-.25-1.68-.62-2.17.58a29.65 29.65 0 0 0-2.08 7.14c0 .06-.08.07-.1-.06-.07-.87-.26-2.46-.28-5.79 0-.65-.14-1.2-.86-1.65-.47-.3-1.88-.81-2.4-.2-.43.5-.94 1.87-1.47 3.48l-.74 2.2.01-4.88c0-.5-.34-.67-.45-.7a9.54 9.54 0 0 0-1.8-.37c-.48 0-.6.27-.6.67 0 .05-.08 4.65-.08 7.87v.46c-.27 1.48-1.14 3.49-2.09 3.49s-1.4-.84-1.4-4.68c0-2.24.07-3.21.1-4.83.02-.94.06-1.65.06-1.81-.01-.5-.87-.75-1.27-.85-.4-.09-.76-.13-1.03-.11-.4.02-.67.27-.67.62v.55a3.71 3.71 0 0 0-1.83-1.49c-1.44-.43-2.94-.05-4.07 1.53a9.31 9.31 0 0 0-1.66 4.73c-.16 1.5-.1 3.01.17 4.3-.33 1.44-.96 2.04-1.64 2.04-.99 0-1.7-1.62-1.62-4.4.06-1.84.42-3.13.82-4.99.17-.8.04-1.2-.31-1.6-.32-.37-1-.56-1.99-.33-.7.16-1.7.34-2.6.47 0 0 .05-.21.1-.6.23-2.03-1.98-1.87-2.69-1.22-.42.39-.7.84-.82 1.67-.17 1.3.9 1.91.9 1.91a22.22 22.22 0 0 1-3.4 7.23v-.7c-.01-3.36.03-6 .05-6.95.02-.94.06-1.63.06-1.8 0-.36-.22-.5-.66-.67-.4-.16-.86-.26-1.34-.3-.6-.05-.97.27-.96.65v.52a3.7 3.7 0 0 0-1.84-1.49c-1.44-.43-2.94-.05-4.07 1.53a10.1 10.1 0 0 0-1.66 4.72c-.15 1.57-.13 2.9.09 4.04-.23 1.13-.89 2.3-1.63 2.3-.95 0-1.5-.83-1.5-4.67 0-2.24.07-3.21.1-4.83.02-.94.06-1.65.06-1.81 0-.5-.87-.75-1.27-.85-.42-.1-.79-.13-1.06-.1-.37.02-.63.35-.63.6v.56a3.7 3.7 0 0 0-1.84-1.49c-1.44-.43-2.93-.04-4.07 1.53-.75 1.03-1.35 2.17-1.66 4.7a15.8 15.8 0 0 0-.12 2.04c-.3 1.81-1.61 3.9-2.68 3.9-.63 0-1.23-1.21-1.23-3.8 0-3.45.22-8.36.25-8.83l1.62-.03c.68 0 1.29.01 2.19-.04.45-.02.88-1.64.42-1.84-.21-.09-1.7-.17-2.3-.18-.5-.01-1.88-.11-1.88-.11s.13-3.26.16-3.6c.02-.3-.35-.44-.57-.53a7.77 7.77 0 0 0-1.53-.44c-.76-.15-1.1 0-1.17.64-.1.97-.15 3.82-.15 3.82-.56 0-2.47-.11-3.02-.11-.52 0-1.08 2.22-.36 2.25l3.2.09-.03 6.53v.47c-.53 2.73-2.37 4.2-2.37 4.2.4-1.8-.42-3.15-1.87-4.3-.54-.42-1.6-1.22-2.79-2.1 0 0 .69-.68 1.3-2.04.43-.96.45-2.06-.61-2.3-1.75-.41-3.2.87-3.63 2.25a2.61 2.61 0 0 0 .5 2.66l.15.19c-.4.76-.94 1.78-1.4 2.58-1.27 2.2-2.24 3.95-2.97 3.95-.58 0-.57-1.77-.57-3.43 0-1.43.1-3.58.19-5.8.03-.74-.34-1.16-.96-1.54a4.33 4.33 0 0 0-1.64-.69c-.7 0-2.7.1-4.6 5.57-.23.69-.7 1.94-.7 1.94l.04-6.57c0-.16-.08-.3-.27-.4a4.68 4.68 0 0 0-1.93-.54c-.36 0-.54.17-.54.5l-.07 10.3c0 .78.02 1.69.1 2.09.08.4.2.72.36.91.15.2.33.34.62.4.28.06 1.78.25 1.86-.32.1-.69.1-1.43.89-4.2 1.22-4.31 2.82-6.42 3.58-7.16.13-.14.28-.14.27.07l-.22 5.32c-.2 5.37.78 6.36 2.17 6.36 1.07 0 2.58-1.06 4.2-3.74l2.7-4.5 1.58 1.46c1.28 1.2 1.7 2.36 1.42 3.45-.21.83-1.02 1.7-2.44.86-.42-.25-.6-.44-1.01-.71-.23-.15-.57-.2-.78-.04-.53.4-.84.92-1.01 1.55-.17.61.45.94 1.09 1.22.55.25 1.74.47 2.5.5 2.94.1 5.3-1.42 6.94-5.34.3 3.38 1.55 5.3 3.72 5.3 1.45 0 2.91-1.88 3.55-3.72.18.75.45 1.4.8 1.96 1.68 2.65 4.93 2.07 6.56-.18.5-.69.58-.94.58-.94a3.07 3.07 0 0 0 2.94 2.87c1.1 0 2.23-.52 3.03-2.31.09.2.2.38.3.56 1.68 2.65 4.93 2.07 6.56-.18l.2-.28.05 1.4-1.5 1.37c-2.52 2.3-4.44 4.05-4.58 6.09-.18 2.6 1.93 3.56 3.53 3.69a4.5 4.5 0 0 0 4.04-2.11c.78-1.15 1.3-3.63 1.26-6.08l-.06-3.56a28.55 28.55 0 0 0 5.42-9.44s.93.01 1.92-.05c.32-.02.41.04.35.27-.07.28-1.25 4.84-.17 7.88.74 2.08 2.4 2.75 3.4 2.75 1.15 0 2.26-.87 2.85-2.17l.23.42c1.68 2.65 4.92 2.07 6.56-.18.37-.5.58-.94.58-.94.36 2.2 2.07 2.88 3.05 2.88 1.02 0 2-.42 2.78-2.28.03.82.08 1.49.16 1.7.05.13.34.3.56.37.93.34 1.88.18 2.24.11.24-.05.43-.25.46-.75.07-1.33.03-3.56.43-5.21.67-2.79 1.3-3.87 1.6-4.4.17-.3.36-.35.37-.03.01.64.04 2.52.3 5.05.2 1.86.46 2.96.65 3.3.57 1 1.27 1.05 1.83 1.05.36 0 1.12-.1 1.05-.73-.03-.31.02-2.22.7-4.96.43-1.79 1.15-3.4 1.41-4 .1-.21.15-.04.15 0-.06 1.22-.18 5.25.32 7.46.68 2.98 2.65 3.32 3.34 3.32 1.47 0 2.67-1.12 3.07-4.05.1-.7-.05-1.25-.48-1.25Z" fill="currentColor" fill-rule="evenodd"></path></svg>
+                </div>
+                <div class="top_right_item">
+                    <div><i class="bi bi-search"></i>Search</div>
+                    <div class="like"><i class="bi bi-heart"></i></div>
+                </div>
+             
+
+            </div>
+
+        <div class="sidebar">
+
+    <aside class="sidebar_left">
+            <svg aria-label="Instagram" class="x1lliihq x1n2onr6 x5n08af instagram" fill="currentColor" height="29" role="img" viewBox="32 4 113 32" width="103"><title>Instagram</title><path clip-rule="evenodd" d="M37.82 4.11c-2.32.97-4.86 3.7-5.66 7.13-1.02 4.34 3.21 6.17 3.56 5.57.4-.7-.76-.94-1-3.2-.3-2.9 1.05-6.16 2.75-7.58.32-.27.3.1.3.78l-.06 14.46c0 3.1-.13 4.07-.36 5.04-.23.98-.6 1.64-.33 1.9.32.28 1.68-.4 2.46-1.5a8.13 8.13 0 0 0 1.33-4.58c.07-2.06.06-5.33.07-7.19 0-1.7.03-6.71-.03-9.72-.02-.74-2.07-1.51-3.03-1.1Zm82.13 14.48a9.42 9.42 0 0 1-.88 3.75c-.85 1.72-2.63 2.25-3.39-.22-.4-1.34-.43-3.59-.13-5.47.3-1.9 1.14-3.35 2.53-3.22 1.38.13 2.02 1.9 1.87 5.16ZM96.8 28.57c-.02 2.67-.44 5.01-1.34 5.7-1.29.96-3 .23-2.65-1.72.31-1.72 1.8-3.48 4-5.64l-.01 1.66Zm-.35-10a10.56 10.56 0 0 1-.88 3.77c-.85 1.72-2.64 2.25-3.39-.22-.5-1.69-.38-3.87-.13-5.25.33-1.78 1.12-3.44 2.53-3.44 1.38 0 2.06 1.5 1.87 5.14Zm-13.41-.02a9.54 9.54 0 0 1-.87 3.8c-.88 1.7-2.63 2.24-3.4-.23-.55-1.77-.36-4.2-.13-5.5.34-1.95 1.2-3.32 2.53-3.2 1.38.14 2.04 1.9 1.87 5.13Zm61.45 1.81c-.33 0-.49.35-.61.93-.44 2.02-.9 2.48-1.5 2.48-.66 0-1.26-1-1.42-3-.12-1.58-.1-4.48.06-7.37.03-.59-.14-1.17-1.73-1.75-.68-.25-1.68-.62-2.17.58a29.65 29.65 0 0 0-2.08 7.14c0 .06-.08.07-.1-.06-.07-.87-.26-2.46-.28-5.79 0-.65-.14-1.2-.86-1.65-.47-.3-1.88-.81-2.4-.2-.43.5-.94 1.87-1.47 3.48l-.74 2.2.01-4.88c0-.5-.34-.67-.45-.7a9.54 9.54 0 0 0-1.8-.37c-.48 0-.6.27-.6.67 0 .05-.08 4.65-.08 7.87v.46c-.27 1.48-1.14 3.49-2.09 3.49s-1.4-.84-1.4-4.68c0-2.24.07-3.21.1-4.83.02-.94.06-1.65.06-1.81-.01-.5-.87-.75-1.27-.85-.4-.09-.76-.13-1.03-.11-.4.02-.67.27-.67.62v.55a3.71 3.71 0 0 0-1.83-1.49c-1.44-.43-2.94-.05-4.07 1.53a9.31 9.31 0 0 0-1.66 4.73c-.16 1.5-.1 3.01.17 4.3-.33 1.44-.96 2.04-1.64 2.04-.99 0-1.7-1.62-1.62-4.4.06-1.84.42-3.13.82-4.99.17-.8.04-1.2-.31-1.6-.32-.37-1-.56-1.99-.33-.7.16-1.7.34-2.6.47 0 0 .05-.21.1-.6.23-2.03-1.98-1.87-2.69-1.22-.42.39-.7.84-.82 1.67-.17 1.3.9 1.91.9 1.91a22.22 22.22 0 0 1-3.4 7.23v-.7c-.01-3.36.03-6 .05-6.95.02-.94.06-1.63.06-1.8 0-.36-.22-.5-.66-.67-.4-.16-.86-.26-1.34-.3-.6-.05-.97.27-.96.65v.52a3.7 3.7 0 0 0-1.84-1.49c-1.44-.43-2.94-.05-4.07 1.53a10.1 10.1 0 0 0-1.66 4.72c-.15 1.57-.13 2.9.09 4.04-.23 1.13-.89 2.3-1.63 2.3-.95 0-1.5-.83-1.5-4.67 0-2.24.07-3.21.1-4.83.02-.94.06-1.65.06-1.81 0-.5-.87-.75-1.27-.85-.42-.1-.79-.13-1.06-.1-.37.02-.63.35-.63.6v.56a3.7 3.7 0 0 0-1.84-1.49c-1.44-.43-2.93-.04-4.07 1.53-.75 1.03-1.35 2.17-1.66 4.7a15.8 15.8 0 0 0-.12 2.04c-.3 1.81-1.61 3.9-2.68 3.9-.63 0-1.23-1.21-1.23-3.8 0-3.45.22-8.36.25-8.83l1.62-.03c.68 0 1.29.01 2.19-.04.45-.02.88-1.64.42-1.84-.21-.09-1.7-.17-2.3-.18-.5-.01-1.88-.11-1.88-.11s.13-3.26.16-3.6c.02-.3-.35-.44-.57-.53a7.77 7.77 0 0 0-1.53-.44c-.76-.15-1.1 0-1.17.64-.1.97-.15 3.82-.15 3.82-.56 0-2.47-.11-3.02-.11-.52 0-1.08 2.22-.36 2.25l3.2.09-.03 6.53v.47c-.53 2.73-2.37 4.2-2.37 4.2.4-1.8-.42-3.15-1.87-4.3-.54-.42-1.6-1.22-2.79-2.1 0 0 .69-.68 1.3-2.04.43-.96.45-2.06-.61-2.3-1.75-.41-3.2.87-3.63 2.25a2.61 2.61 0 0 0 .5 2.66l.15.19c-.4.76-.94 1.78-1.4 2.58-1.27 2.2-2.24 3.95-2.97 3.95-.58 0-.57-1.77-.57-3.43 0-1.43.1-3.58.19-5.8.03-.74-.34-1.16-.96-1.54a4.33 4.33 0 0 0-1.64-.69c-.7 0-2.7.1-4.6 5.57-.23.69-.7 1.94-.7 1.94l.04-6.57c0-.16-.08-.3-.27-.4a4.68 4.68 0 0 0-1.93-.54c-.36 0-.54.17-.54.5l-.07 10.3c0 .78.02 1.69.1 2.09.08.4.2.72.36.91.15.2.33.34.62.4.28.06 1.78.25 1.86-.32.1-.69.1-1.43.89-4.2 1.22-4.31 2.82-6.42 3.58-7.16.13-.14.28-.14.27.07l-.22 5.32c-.2 5.37.78 6.36 2.17 6.36 1.07 0 2.58-1.06 4.2-3.74l2.7-4.5 1.58 1.46c1.28 1.2 1.7 2.36 1.42 3.45-.21.83-1.02 1.7-2.44.86-.42-.25-.6-.44-1.01-.71-.23-.15-.57-.2-.78-.04-.53.4-.84.92-1.01 1.55-.17.61.45.94 1.09 1.22.55.25 1.74.47 2.5.5 2.94.1 5.3-1.42 6.94-5.34.3 3.38 1.55 5.3 3.72 5.3 1.45 0 2.91-1.88 3.55-3.72.18.75.45 1.4.8 1.96 1.68 2.65 4.93 2.07 6.56-.18.5-.69.58-.94.58-.94a3.07 3.07 0 0 0 2.94 2.87c1.1 0 2.23-.52 3.03-2.31.09.2.2.38.3.56 1.68 2.65 4.93 2.07 6.56-.18l.2-.28.05 1.4-1.5 1.37c-2.52 2.3-4.44 4.05-4.58 6.09-.18 2.6 1.93 3.56 3.53 3.69a4.5 4.5 0 0 0 4.04-2.11c.78-1.15 1.3-3.63 1.26-6.08l-.06-3.56a28.55 28.55 0 0 0 5.42-9.44s.93.01 1.92-.05c.32-.02.41.04.35.27-.07.28-1.25 4.84-.17 7.88.74 2.08 2.4 2.75 3.4 2.75 1.15 0 2.26-.87 2.85-2.17l.23.42c1.68 2.65 4.92 2.07 6.56-.18.37-.5.58-.94.58-.94.36 2.2 2.07 2.88 3.05 2.88 1.02 0 2-.42 2.78-2.28.03.82.08 1.49.16 1.7.05.13.34.3.56.37.93.34 1.88.18 2.24.11.24-.05.43-.25.46-.75.07-1.33.03-3.56.43-5.21.67-2.79 1.3-3.87 1.6-4.4.17-.3.36-.35.37-.03.01.64.04 2.52.3 5.05.2 1.86.46 2.96.65 3.3.57 1 1.27 1.05 1.83 1.05.36 0 1.12-.1 1.05-.73-.03-.31.02-2.22.7-4.96.43-1.79 1.15-3.4 1.41-4 .1-.21.15-.04.15 0-.06 1.22-.18 5.25.32 7.46.68 2.98 2.65 3.32 3.34 3.32 1.47 0 2.67-1.12 3.07-4.05.1-.7-.05-1.25-.48-1.25Z" fill="currentColor" fill-rule="evenodd"></path></svg>
+            
+            <i class="bi bi-instagram insta_logo"></i>
+            <ul>
+                <li><i><svg aria-label="Home" class="x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Home</title><path d="M22 23h-6.001a1 1 0 0 1-1-1v-5.455a2.997 2.997 0 1 0-5.993 0V22a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V11.543a1.002 1.002 0 0 1 .31-.724l10-9.543a1.001 1.001 0 0 1 1.38 0l10 9.543a1.002 1.002 0 0 1 .31.724V22a1 1 0 0 1-1 1Z"></path></svg></i><span>Home</span></li>
+                <li><i class="bi bi-search"></i><span>Search</span></li>
+                <li><i><svg aria-label="Explore" class="x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Explore</title><polygon fill="none" points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon><polygon fill-rule="evenodd" points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"></polygon><circle cx="12.001" cy="12.005" fill="none" r="10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg></i><span>Explore</span></li>
+                <li><i style="vertical-align: middle;">
+                    <svg aria-label="Reels" class="x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Reels</title><line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="2.049" x2="21.95" y1="7.002" y2="7.002"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="13.504" x2="16.362" y1="2.001" y2="7.002"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="7.207" x2="10.002" y1="2.11" y2="7.002"></line><path d="M2 12.001v3.449c0 2.849.698 4.006 1.606 4.945.94.908 2.098 1.607 4.946 1.607h6.896c2.848 0 4.006-.699 4.946-1.607.908-.939 1.606-2.096 1.606-4.945V8.552c0-2.848-.698-4.006-1.606-4.945C19.454 2.699 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.546 2 5.704 2 8.552Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M9.763 17.664a.908.908 0 0 1-.454-.787V11.63a.909.909 0 0 1 1.364-.788l4.545 2.624a.909.909 0 0 1 0 1.575l-4.545 2.624a.91.91 0 0 1-.91 0Z" fill-rule="evenodd"></path></svg></i><span>Reels</span></li>
+                <li><i class="bi bi-messenger"></i><span>Messages</span></li>
+                <li><i class="bi bi-heart"></i><span>Notifications</span></li>
+                <li><i><svg aria-label="New post" class="x1lliihq x1n2onr6 x5n08af" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title>New post</title><path d="M2 12v3.45c0 2.849.698 4.005 1.606 4.944.94.909 2.098 1.608 4.946 1.608h6.896c2.848 0 4.006-.7 4.946-1.608C21.302 19.455 22 18.3 22 15.45V8.552c0-2.849-.698-4.006-1.606-4.945C19.454 2.7 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.547 2 5.703 2 8.552Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="6.545" x2="17.455" y1="12.001" y2="12.001"></line><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="12.003" x2="12.003" y1="6.545" y2="17.455"></line></svg></i><span>Create</span></li>
+                <li><img class="my_profile" src="https://images.unsplash.com/photo-1649619336066-cbb6c6f81f98?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdpcmwlMjBpbiUyMHJhaW58ZW58MHwyfDB8fHwy" alt="my_profile"/><span>Profile</span></li>
+                <li><i><svg aria-label="" class="x1lliihq x1n2onr6 xyb1xck" fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24"><title></title><path d="M12,4c4.4184,0,8,3.5816,8,8,0,4.4176-3.5816,8-8,8s-8-3.5824-8-8c0-4.4184,3.5816-8,8-8M12,1C5.93458,1,1,5.93458,1,12s4.93458,11,11,11,11-4.93458,11-11S18.06542,1,12,1h0Z"></path></svg></i><span>Meta AI</span></li>
+                <li><i style="vertical-align: middle;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#FFFFFF">
+                       <path d="M3 17C3 19.2091 4.79086 21 7 21C9.20914 21 11 19.2091 11 17C11 14.7909 9.20914 13 7 13C4.79086 13 3 14.7909 3 17ZM7 19C5.89543 19 5 18.1046 5 17C5 15.8954 5.89543 15 7 15C8.10457 15 9 15.8954 9 17C9 18.1046 8.10457 19 7 19Z"/>
+                       <path d="M3 7C3 9.20914 4.79086 11 7 11C9.20914 11 11 9.20914 11 7C11 4.79086 9.20914 3 7 3C4.79086 3 3 4.79086 3 7ZM7 9C5.89543 9 5 8.10457 5 7C5 5.89543 5.89543 5 7 5C8.10457 5 9 5.89543 9 7C9 8.10457 8.10457 9 7 9Z"/>
+                       <path d="M13 17C13 19.2091 14.7909 21 17 21C19.2091 21 21 19.2091 21 17C21 14.7909 19.2091 13 17 13C14.7909 13 13 14.7909 13 17ZM17 19C15.8954 19 15 18.1046 15 17C15 15.8954 15.8954 15 17 15C18.1046 15 19 15.8954 19 17C19 18.1046 18.1046 19 17 19Z"/>
+                       <path d="M16.441 10.6266C16.6549 11.1245 17.3625 11.1245 17.5765 10.6266L18.3939 8.72443C18.4564 8.57898 18.5725 8.46316 18.7183 8.40081L20.6256 7.58558C21.1248 7.37223 21.1248 6.66646 20.6256 6.45313L18.7183 5.63788C18.5725 5.57554 18.4564 5.45972 18.3939 5.31427L17.5598 3.37331C17.3484 2.88143 16.6518 2.87387 16.4297 3.36107L15.5339 5.32659C15.471 5.46452 15.3594 5.57455 15.2203 5.63554L13.369 6.44802C12.8744 6.66499 12.8778 7.36588 13.3744 7.57819L15.299 8.40081C15.4449 8.46316 15.5611 8.57898 15.6235 8.72443L16.441 10.6266Z"/>
+                       </svg>
+                    </i><span>AI studio</span></li>
+                <li><i class="bi bi-threads"></i><span>Threads</span></li>
+            </ul>
+
+            <ul>
+                <li><i class="bi bi-house-door-fill"></i></li>
+                <li><i class="bi bi-compass"></i></li>
+                <li><i class="bi bi-messenger"></i></li>
+                <li><i class="bi bi-plus-square"></i></li>
+                <li><i class="bi bi-messenger"></i></li>
+                <li><img class="my_profile" src="https://images.unsplash.com/photo-1649619336066-cbb6c6f81f98?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdpcmwlMjBpbiUyMHJhaW58ZW58MHwyfDB8fHwy" alt="my_profile"/><span>Profile</span></li>
+            </ul>
+
+
+    </aside>
+    
+        </div>
+
+    <div class="feed_profile">
+<section class="profile">
+
+
+
+    <div class="users_story">
+        <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+    <span>harini_.</span>
+    </div>
+    </div>
+
+    <div class="users_story">
+         <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+        <span>_laxman_15</span>
+    </div>
+    </div>
+   
+
+    <div class="users_story">
+        <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/women/20.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+        <span>sweetie__.</span>
+    </div>
+    </div>
+    
+     <div class="users_story">
+            <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="profile"/>
+        </div>
+        </div>
+        <div>
+            <span>itz_haru_</span>
+        </div>
+    </div>
+    
+    <div class="users_story">
+        <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+        <span>shalu_x</span>
+    </div>
+    </div>
+    
+    <div class="users_story">
+       <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/men/29.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+        <span>sajith_..</span>
+    </div>
+    </div>
+    
+    <div class="users_story">
+        <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+        <span>its_dharu</span>
+    </div>
+    </div>    
+    
+     <div class="users_story">
+      <div class="gradient_wrapper">
+        <div class="black_ring">
+            <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="profile"/>
+        </div>
+    </div>
+    <div>
+        <span>shreyan_2.</span>
+    </div>
+     </div>
+    
+
+    </section>
+
+            <div class="right_svg"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="3" width="14" height="14" fill="currentColor" class="bi bi-chevron-right chev_right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+</svg></div>
+
+<div class="right_smallerscreen_svg"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="3" width="14" height="14" fill="currentColor" class="bi bi-chevron-right chev_right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+</svg></div>
+
+    </div>
+
+        <div class="feeds"> 
+            
+         <div class="feed_datas">
+
+            <div class="feed">
+
+            <div class="left">
+                
+            <div><img src="https://images.unsplash.com/photo-1710661184707-8f5feaefea3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJveSUyMGluJTIwcmFpbnxlbnwwfDJ8MHx8fDI%3D" alt="user_profile"/></div>
+            <div class="highlight_txt">Jin</div>
+            <div><i class="bi bi-dot"></i></div>
+            <div class="time">3h</div>
+
+            </div>
+
+            <div class="right">
+
+                <div><i class="bi bi-three-dots"></i></div>
+
+            </div>
+
+
+            </div>
+
+    <div class="reels">
+
+        <img src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsZSUyMHBpY3N8ZW58MHx8MHx8fDA%3D" alt="feeds" class="feed_pics"/>
+
+    </div>
+
+                
+    <div class="feed_profile_status">
+
+        <div class="left_icons">
+
+        <div><i class="bi bi-heart"></i></div>
+        <div><i class="bi bi-chat"></i></div>
+        <div><i class="bi bi-send"></i></div>
+
+        </div>
+
+        <div class="right">
+
+            <div><i class="bi bi-bookmark"></i></div>
+            
+        </div>
+
+
+            </div>
+
+
+    <div class="highlight_txt">1003 likes</div>
+    <div><span class="highlight_txt">jin_official</span><span class="caption">Do what you love..</span></div>
+            <div class="view_cmts">View all 1000 comments</div>
+            <div class="sub_heading comment">
+                <div>Add a comment...</div>
+                <div><i class="bi bi-emoji-smile"></i></div>
+            </div>
+            
+
+        </div>
+            <div class="feed_datas">
+
+            <div class="feed">
+
+            <div class="left">
+                
+            <div><img src="https://media.istockphoto.com/id/1450094329/photo/colorful-sunset-viewed-from-the-pink-sea-beach-with-soft-waves.jpg?s=2048x2048&w=is&k=20&c=gNc1Nc9lW_2nKfpwi3LiZKaYZwcB8kzpI9SQKYErKlA=" alt="user_profile"/></div>
+            <div class="highlight_txt">kitty</div>
+            <div><i class="bi bi-dot"></i></div>
+            <div class="time">2h</div>
+
+            </div>
+
+            <div class="right">
+
+                <div><i class="bi bi-three-dots"></i></div>
+
+            </div>
+
+            </div>
+
+    <div class="reels">
+
+        <img src="https://cdn.pixabay.com/photo/2021/10/27/19/09/cat-6748193_1280.jpg" alt="feeds" class="feed_pics"/>
+
+    </div>
+
+                
+    <div class="feed_profile_status">
+
+        <div class="left_icons">
+
+        <div><i class="bi bi-heart"></i></div>
+        <div><i class="bi bi-chat"></i></div>
+        <div><i class="bi bi-send"></i></div>
+
+        </div>
+
+        <div class="right">
+
+            <div><i class="bi bi-bookmark"></i></div>
+            
+        </div>
+
+
+            </div>
+
+
+    <div class="highlight_txt">100020 likes</div>
+    <div><span class="highlight_txt">cat_stagram</span><span class="caption">Cat lovers</span></div>
+            <div class="view_cmts">View all 543 comments</div>
+            <div class="sub_heading comment">
+                <div>Add a comment...</div>
+                <div><i class="bi bi-emoji-smile"></i></div>
+            </div>
+            
+
+        </div>
+        
+
+        <!-- <div class="feed_datas">
+
+            <div class="feed">
+
+            <div class="left">
+                
+            <div><img src="https://media.istockphoto.com/id/1450094329/photo/colorful-sunset-viewed-from-the-pink-sea-beach-with-soft-waves.jpg?s=2048x2048&w=is&k=20&c=gNc1Nc9lW_2nKfpwi3LiZKaYZwcB8kzpI9SQKYErKlA=" alt="user_profile"/></div>
+            <div class="highlight_txt">scenary</div>
+            <div><i class="bi bi-dot"></i></div>
+            <div class="time">1d</div>
+
+            </div>
+
+            <div class="right">
+
+                <div><i class="bi bi-three-dots"></i></div>
+
+            </div>
+
+            </div>
+
+    <div class="reels">
+
+  <video autoplay loop playsinline>
+     <source src="https://cdn.pixabay.com/video/2025/06/17/286278_large.mp4" type="video/mp4"> </video>
+    </div>
+
+                
+    <div class="feed_profile_status">
+
+        <div class="left_icons">
+
+        <div><i class="bi bi-heart"></i></div>
+        <div><i class="bi bi-chat"></i></div>
+        <div><i class="bi bi-send"></i></div>
+
+        </div>
+
+        <div class="right">
+
+            <div><i class="bi bi-bookmark"></i></div>
+            
+        </div>
+
+
+            </div>
+
+
+    <div class="highlight_txt">126 likes</div>
+    <div><span class="highlight_txt">nature_lover</span><span class="caption">Enjoy the beach view..</span></div>
+            <div class="view_cmts">View all 10 comments</div>
+            <div class="sub_heading comment">
+                <div>Add a comment...</div>
+                <div><i class="bi bi-emoji-smile"></i></div>
+            </div>
+            
+
+        </div> -->
+
+    </div>
+
+
+
+        <div class="right_item">
+
+            <div class="right_sidebar">
+                <div class="side_profile">
+                    <div><img src="https://images.unsplash.com/photo-1649619336066-cbb6c6f81f98?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdpcmwlMjBpbiUyMHJhaW58ZW58MHwyfDB8fHwy" alt="profile"/></div>
+                    <div><h5>Kitty_savitha</h5>
+                         <p class="sub_heading" style="font-size: 14px;">savitha</p>
+                    </div>
+                </div>
+                <div class="acc_status" style="color: #85A1FF;"><b>Switch</b></div>
+            </div>
+            <div class="suggestion">
+                <div><p style="color: #a8a8a8;" class="title"><b>Suggested for you</b></p></div>
+                <div><p class="sub_title"><b>See All</b></p></div>
+            </div>
+                <section class="right_grp">
+
+                <section class="right_sidebar">
+
+                    <div class="side_profile">
+                    <div><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=256&q=80" alt="profile"/></div>
+                    <div><h5>Kenya</h5>
+                         <p class="sub_heading">Followed by hariz_02</p>
+                    </div>
+                </div>
+                <div class="acc_status"><b>Follow</b></div>
+                    
+                </section>
+                <section class="right_sidebar">
+
+                    <div class="side_profile">
+                    <div><img src="https://images.unsplash.com/photo-1437957146754-f6377debe171?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZXxlbnwwfDJ8MHx8fDI%3D" alt="profile"/></div>
+                    <div><h5>Kitty_savitha</h5>
+                         <p class="sub_heading">Followed by sam_x, ha..</p>
+                    </div>
+                </div>
+                <div class="acc_status"><b>Follow</b></div>
+                    
+                </section>
+                <section class="right_sidebar">
+
+                    <div class="side_profile">
+                    <div><img src="https://images.unsplash.com/photo-1546385266-1b864c4708bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3V0ZSUyMHBhcmlzfGVufDB8MnwwfHx8Mg%3D%3D" alt="profile"/></div>
+                    <div><h5>kitty_savitha</h5>
+                         <p class="sub_heading">Followed by Nethra_7</p>
+                    </div>
+                </div>
+                <div class="acc_status"><b>Follow</b></div>
+                    
+                </section>
+                <section class="right_sidebar">
+
+                    <div class="side_profile">
+                    <div><img src="https://images.unsplash.com/photo-1635377361665-60442f6cf799?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGN1dGUlMjBhYnJhb2QlMjBwaWNzfGVufDB8MnwwfHx8Mg%3D%3D" alt="profile"/></div>
+                    <div><h5>Kitty_savitha</h5>
+                         <p class="sub_heading">Followed by Daniel...</p>
+                    </div>
+                </div>
+                <div class="acc_status"><b>Follow</b></div>
+                    
+                </section>
+                <section class="right_sidebar">
+
+                    <div class="side_profile">
+                    <div><img src="https://images.unsplash.com/photo-1605825831039-8b6b4199b04a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN3aXR6ZXJsYW5kJTIwcGljc3xlbnwwfDJ8MHx8fDI%3D" alt="profile"/></div>
+                    <div><h5>Kitty_savitha</h5>
+                         <p class="sub_heading">Followed by Thompson..</p>
+                    </div>
+                </div>
+                <div class="acc_status"><b>Follow</b></div>
+                    
+                </section>
+
+                </section>
+
+
+                
+            <section class="insta_info">
+
+                <div class="info">
+
+                    <div>About</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Help</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Press</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>API</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Jobs</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Privacy</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Terms</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div></div>
+                    
+                </div>
+
+                <div class="info">
+
+                    <div>Locations</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Language</div>
+                    <div><i class="bi bi-dot"></i></div>
+                    <div>Meta Verified</div>
+                    
+                </div>
+
+            </section>
+
+            
+                <div class="info">
+                    <p class="insta_meta"><i class="bi bi-c-circle"></i>2025 INSTAGRAM FROM META</p>
+                </div>
+        </div>
+
+        
+    <section class="notify">
+
+         <div class="messages">
+
+                    <div class="notification"><i class="bi bi-messenger"></i>
+                    <div class="notification_count">8</div></div>
+                    <div><span class="msg_txt">Messages</span></div>
+                    <div class="msg_profile">
+
+                         <div><img src="https://randomuser.me/api/portraits/women/68.jpg" alt="profile"/></div>
+                         <div><img src="https://randomuser.me/api/portraits/men/55.jpg" alt="profile"/></div>
+                         <div><img src="https://randomuser.me/api/portraits/women/12.jpg" alt="profile"/></div>
+                         <div><i class="bi bi-three-dots"></i></div>
+
+
+                    </div>
+                </div>
+    
+
+    </section>
+
+
+
+
+    </div>
+    
+</body>
+</html>
