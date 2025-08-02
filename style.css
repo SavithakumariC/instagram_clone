@@ -702,7 +702,7 @@ body{
   .feed_profile {
     width: 100%;
     overflow-x: hidden;
-    margin: 20px;
+    margin: 20px 0px;
   }
 
   .profile {
